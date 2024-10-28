@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    /* display: flex; */
+    padding-left: 30%;
+    padding-top: 17%;
+    background-color: rgb(6, 117, 142);
+}
+
+.container{
+    display: flex;
+}
+
+p{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+p span{
+    color: rgb(226, 156, 43);
+}
+
+.container .firstbox textarea{
+    width: 545px;
+    height: 300px;
+    background-color: rgba(163, 163, 163, 0.199);
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.container .firstbox textarea::placeholder{
+    color: black;
+}
+.container .secondbox{
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    justify-content: space-around;
+    margin-left: 20px;
+
+}
+.container .secondbox select{
+    background-color: rgba(163, 163, 163, 0.199);
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    appearance: none;
+    /* background-image: url(chevron-down.png);
+    background-repeat: no-repeat; */
+    background-position: calc( 100% - 10px);
+
+}
+.container .secondbox #listen{
+    border: 0;
+    outline: 0;
+    padding: 2px;
+    font-size: 20px;
+    background-color: rgb(226, 156, 43);
+    cursor: pointer;
+    width: 100px;
+    border-radius:10px;
+}
+
+.container .secondbox #delete{
+    border: 0;
+    outline: 0;
+    padding: 2px;
+    font-size: 20px;
+    background-color: rgb(226, 156, 43);
+    cursor: pointer;
+    width: 100px;
+    border-radius:10px;
+}
+
+.container .secondbox #listen img{
+    margin-right: 4px;
+}
